@@ -14,7 +14,7 @@
 		E38779332F586D2A00C3D5F3 /* Exceptions for "Password" folder in "Password" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Files/Info.plist,
+				Info.plist,
 			);
 			target = E38779202F586D2600C3D5F3 /* Password */;
 		};
