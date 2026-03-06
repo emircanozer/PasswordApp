@@ -19,7 +19,7 @@ class PasswordCriteriaView : UIView {
     let circleImage = UIImage(systemName: "circle")!.withTintColor(.tertiaryLabel, renderingMode: .alwaysOriginal)
     
     var isCriteriaMet: Bool = false {
-        didSet {
+        didSet { //Değişkenin değeri her değiştiğinde "Ben buradayım, bir şey oldu!" diyerek içindeki kodu çalıştırır.(true olduğu an image yeşil olacak)
             if isCriteriaMet {
                 imageView.image = checkmarkImage
             } else {
